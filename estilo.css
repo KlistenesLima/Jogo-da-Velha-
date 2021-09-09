@@ -1,0 +1,61 @@
+
+
+#dvjogo{
+    width: 160px;/*largura*/
+    height: 160px;/*altura*/
+    display: flex;/* Controlar o alinhamento dos caracteres dentro de cada uma das divs */
+    flex-wrap: wrap;/*Quando chegar no limite de 160px, o que não couber passa para baixo, fazendo com que fiquem 3 inputs por linha.*/
+    align-content: flex-start;/*Faz com que os inputs fiquem alinhados, não sobrando espaços vagos entre eles.*/
+}
+.posJogo{
+    width: 50px;/*largura*/
+    height: 50px;/*altura*/
+    margin: 0px;/*Espaço exterior*/
+    padding: 0px;/*Espaço interior*/
+    cursor: pointer;/*Cursor da mãozinha*/
+    display: flex;/* Controlar o alinhamento dos caracteres dentro de cada uma das divs */
+    justify-content: center;/*Alinhamento justificado no centro*/
+    align-items: center;/*Alinhamento no centro*/
+    font-size: 40px;
+}
+#p1{
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#p2{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#p3{
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#p4{
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#p5{
+    border: 1px solid #000;
+}
+#p6{
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+#p7{
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    
+}
+#p8{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-top: 1px solid #000;
+    
+}
+#p9{
+    border-left: 1px solid #000;
+    border-top: 1px solid #000;
+}
